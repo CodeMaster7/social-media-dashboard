@@ -1,5 +1,4 @@
-# Frontend Mentor
-# Social media dashboard with theme switcher
+# Frontend Mentor <br /> Social media dashboard with theme switcher
 
 Site URL: [Live Site here](https://hungry-hugle-940d05.netlify.app)
 ![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)
