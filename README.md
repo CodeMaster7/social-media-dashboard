@@ -24,15 +24,15 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
 
 ### The challenge
 
-Users should be able to:
+Your challenge is to build out this Social Media Dashboard and get it looking as close to the design as possible.
+
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+
+Your users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
-
-### Links
-
-- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions)
-<!-- - Live Site URL: [live site URL here](https://youthful-northcutt-b93b58.netlify.app/) -->
+- Toggle color theme to their preference
 
 ## My process
 
