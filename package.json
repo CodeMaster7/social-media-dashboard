@@ -1,0 +1,44 @@
+{
+	"name": "social-media-dashboard",
+	"version": "1.0.0",
+	"description": "Check out the live website [here](https://hungry-hugle-940d05.netlify.app) ![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"preinstall": "npx npm-force-resolutions"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CodeMaster7/social-media-dashboard.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/CodeMaster7/social-media-dashboard/issues"
+	},
+	"homepage": "https://github.com/CodeMaster7/social-media-dashboard#readme",
+	"dependencies": {
+		"@babel/core": "^7.15.8",
+		"@babel/preset-env": "^7.15.8",
+		"autoprefixer": "^10.3.7",
+		"browser-sync": "^2.27.6",
+		"cssnano": "^5.0.8",
+		"dart-sass": "^1.25.0",
+		"gulp": "^4.0.2",
+		"gulp-babel": "^8.0.0",
+		"gulp-postcss": "^9.0.1",
+		"gulp-sass": "^5.0.0",
+		"gulp-terser": "^2.1.0",
+		"postcss": "^8.3.11",
+		"sass": "^1.43.4"
+	},
+	"devDependencies": {
+		"glob-parent": "^6.0.2",
+		"set-value": "^4.1.0"
+	},
+	"resolutions": {
+		"glob-parent": "^6.0.2",
+		"set-value": "^4.1.0"
+	}
+}
