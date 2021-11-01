@@ -4,7 +4,7 @@
 	"description": "Check out the live website [here](https://hungry-hugle-940d05.netlify.app) ![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
+		"deploy": "gh-pages -d dist",
 		"preinstall": "npx npm-force-resolutions"
 	},
 	"repository": {
@@ -25,6 +25,7 @@
 		"browser-sync": "^2.27.6",
 		"cssnano": "^5.0.8",
 		"dart-sass": "^1.25.0",
+		"gh-pages": "^3.2.3",
 		"gulp": "^4.0.2",
 		"gulp-babel": "^8.0.0",
 		"gulp-postcss": "^9.0.1",
