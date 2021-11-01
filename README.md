@@ -75,7 +75,8 @@ root.addEventListener("mousemove", e => {
 ```
 
 ### Useful resources
-
+- [Accessibility](https://www.accessibility-developer-guide.com/examples/hiding-elements/visually/) - Use correct heading tags. Screenreader-only text for card titles/username
+- [Prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) - Switching between light/dark modes via JS and Prefers-color-scheme media query.
 - [CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This helped me for CSS flexbox. I really liked this pattern and will use it going forward.
 - [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - This is an amazing article which helped me finally understand Grid. I'd recommend it to anyone still learning this concept.
 
