@@ -1,9 +1,13 @@
 # Frontend Mentor <br /> Social media dashboard with theme switcher
 
 Check out the live website [here](https://cocky-hoover-cbbd3a.netlify.app/)
+
 ![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)
 
 This is a solution to the [Social media dashboard with theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+### Performance
+
+[![easybank-chrome-performance.jpg](https://i.postimg.cc/j2fQcTrR/easybank-chrome-performance.jpg)](./images/performance.jpg)
 
 ## Welcome! 👋
 
