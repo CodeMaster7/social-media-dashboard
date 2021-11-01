@@ -1,6 +1,6 @@
 # Frontend Mentor <br /> Social media dashboard with theme switcher
 
-Check out the live website [here](https://hungry-hugle-940d05.netlify.app)
+Check out the live website [here](https://cocky-hoover-cbbd3a.netlify.app/)
 ![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)
 
 This is a solution to the [Social media dashboard with theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
@@ -11,7 +11,6 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -39,36 +38,40 @@ Your users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- SCSS - For styles
+- SCSS
+- Gulp Sass
 - Flexbox
 - CSS Grid
+- Javascript
+- Accessibility
 - Mobile-first workflow
 
 ### What I learned
 
-@mixin and @include
+Updating a CSS Custom Properties with JavaScript
 
-```scss
-@mixin square($size, $radius: 0) {
-  width: $size;
-  height: $size;
-
-  @if $radius != 0 {
-    border-radius: $radius;
-  }
-}
-
-.avatar {
-  @include square(100px, $radius: 4px);
+```css
+:root {
+  --mouse-x: 0px;
+  --mouse-y: 0px;
 }
 ```
-css
+Perhaps you use them to set a position:
+
 ```css
-.avatar {
-  width: 100px;
-  height: 100px;
-  border-radius: 4px;
+.mover {
+  left: var(--mouse-x);
+  top: var(--mouse-y);
 }
+```
+To update those values from JavaScript, you’d:
+```js
+let root = document.documentElement;
+
+root.addEventListener("mousemove", e => {
+  root.style.setProperty('--mouse-x', e.clientX + "px");
+  root.style.setProperty('--mouse-y', e.clientY + "px");
+});
 ```
 
 ### Useful resources
@@ -79,7 +82,6 @@ css
 ## Author
 
 - Website - [Sam Bonfanti](https://sambonfanti.club/)
-- Frontend Mentor - [@CodeMaster7](https://www.frontendmentor.io/profile/CodeMaster7)
 - Linkedin - [sambonfanti](https://www.linkedin.com/in/sambonfanti/)
 
 ## Acknowledgments
