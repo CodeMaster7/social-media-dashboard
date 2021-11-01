@@ -44,6 +44,7 @@ Your users should be able to:
 - Semantic HTML5 markup
 - SCSS
 - Gulp Sass
+- BEM - naming convention
 - Flexbox
 - CSS Grid
 - Javascript
